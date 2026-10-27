@@ -1,0 +1,45 @@
+# Raw and restricted research material stays outside this public repository.
+/data/raw/
+/data/private/
+/data/restricted/
+/local/
+/private/
+/downloads/
+*.svs
+*.ndpi
+*.mrxs
+*.scn
+*.tif
+*.tiff
+*.ome.tif
+*.ome.tiff
+*.dcm
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+*.cram
+*.h5ad
+*.rds
+*.RData
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Temporary files
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+__pycache__/
+.ipynb_checkpoints/
